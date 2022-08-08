@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/allEmployeeFragment"
+        android:title="All Employee"
+        android:icon="@drawable/ic_breaking_news"/>
+
+    <item android:id="@+id/savedEmployeeFragment2"
+        android:title="Saved Employee"
+        android:icon="@drawable/ic_all_news"/>
+
+    <item android:id="@+id/createEmployeeFragment"
+        android:title="Create Employee"
+        android:icon="@drawable/ic_favorite"/>
+
+    <item android:id="@+id/searchEmployeeFragment"
+        android:title="Search Employee"
+        android:icon="@drawable/ic_all_news"/>
+
+
+
+
+</menu>

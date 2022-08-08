@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/EmployeeManagementMVVM3/EmployeeManagementMVVM/app/src/main/res/drawable/snackbar.xml" value="0.1" />
+        <entry key="..\:/Android/EmployeeManagementMVVM3/EmployeeManagementMVVM/app/src/main/res/layout/activity_employee.xml" value="0.19882246376811594" />
+        <entry key="..\:/Android/EmployeeManagementMVVM3/EmployeeManagementMVVM/app/src/main/res/layout/employee_previewer.xml" value="0.22" />
+        <entry key="..\:/Android/EmployeeManagementMVVM3/EmployeeManagementMVVM/app/src/main/res/layout/fragment_all_employee.xml" value="0.1" />
+        <entry key="..\:/Android/EmployeeManagementMVVM3/EmployeeManagementMVVM/app/src/main/res/layout/fragment_create_employee.xml" value="0.1" />
+        <entry key="..\:/Android/EmployeeManagementMVVM3/EmployeeManagementMVVM/app/src/main/res/layout/fragment_employee_detail.xml" value="0.19882246376811594" />
+        <entry key="..\:/Android/EmployeeManagementMVVM3/EmployeeManagementMVVM/app/src/main/res/layout/fragment_saved_employee.xml" value="0.19882246376811594" />
+        <entry key="..\:/Android/EmployeeManagementMVVM3/EmployeeManagementMVVM/app/src/main/res/layout/fragment_update_employee.xml" value="0.1743659420289855" />
+        <entry key="..\:/Android/EmployeeManagementMVVM3/EmployeeManagementMVVM/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/masood/AndroidStudioProjects/EmployeeManagementMVVM/app/src/main/res/drawable/ic_all_news.xml" value="0.1235" />
+        <entry key="..\:/Users/masood/AndroidStudioProjects/EmployeeManagementMVVM/app/src/main/res/layout/activity_employee.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/masood/AndroidStudioProjects/EmployeeManagementMVVM/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/masood/AndroidStudioProjects/EmployeeManagementMVVM/app/src/main/res/layout/employee_previewer.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/masood/AndroidStudioProjects/EmployeeManagementMVVM/app/src/main/res/layout/fragment_all_employee.xml" value="0.2" />
+        <entry key="..\:/Users/masood/AndroidStudioProjects/EmployeeManagementMVVM/app/src/main/res/layout/fragment_create_employee.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/masood/AndroidStudioProjects/EmployeeManagementMVVM/app/src/main/res/layout/fragment_item_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/masood/AndroidStudioProjects/EmployeeManagementMVVM/app/src/main/res/layout/fragment_search_employee.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/masood/AndroidStudioProjects/EmployeeManagementMVVM/app/src/main/res/layout/item_article_preview.xml" value="0.29683698296836986" />
+        <entry key="..\:/Users/masood/AndroidStudioProjects/EmployeeManagementMVVM/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.253125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

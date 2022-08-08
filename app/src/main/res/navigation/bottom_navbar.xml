@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navbar"
+    app:startDestination="@id/allEmployeeFragment">
+
+    <fragment
+        android:id="@+id/allEmployeeFragment"
+        android:name="com.example.employeemanagementmvvm.ui.fragment.AllEmployeeFragment"
+        android:label="fragment_all_employee"
+        tools:layout="@layout/fragment_all_employee" >
+        <action
+            android:id="@+id/action_allEmployeeFragment_to_employeeDetailFragment"
+            app:destination="@id/employeeDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_in_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/createEmployeeFragment"
+        android:name="com.example.employeemanagementmvvm.ui.fragment.CreateEmployeeFragment"
+        android:label="fragment_create_employee"
+        tools:layout="@layout/fragment_create_employee" >
+        <action
+            android:id="@+id/action_createEmployeeFragment_to_employeeDetailFragment"
+            app:destination="@id/employeeDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_in_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/searchEmployeeFragment"
+        android:name="com.example.employeemanagementmvvm.ui.fragment.SearchEmployeeFragment"
+        android:label="SearchEmployeeFragment" >
+        <action
+            android:id="@+id/action_searchEmployeeFragment_to_employeeDetailFragment"
+            app:destination="@id/employeeDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_in_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/employeeDetailFragment"
+        android:name="com.example.employeemanagementmvvm.ui.fragment.EmployeeDetailFragment"
+        android:label="fragment_employee_detail"
+        tools:layout="@layout/fragment_employee_detail" >
+
+
+        <argument
+            android:name="employee"
+            app:argType="com.example.employeemanagementmvvm.model.Data" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedEmployeeFragment2"
+        android:name="com.example.employeemanagementmvvm.ui.fragment.SavedEmployeeFragment"
+        android:label="fragment_saved_employee"
+        tools:layout="@layout/fragment_saved_employee" >
+
+        <action
+            android:id="@+id/action_savedEmployeeFragment2_to_updateEmployeeFragment"
+            app:destination="@id/updateEmployeeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateEmployeeFragment"
+        android:name="com.example.employeemanagementmvvm.ui.fragment.UpdateEmployeeFragment"
+        android:label="fragment_update_employee"
+        tools:layout="@layout/fragment_update_employee" >
+        <argument
+            android:name="employeedata"
+            app:argType="com.example.employeemanagementmvvm.model.Data" />
+    </fragment>
+</navigation>
